@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>sz-270-service-portal-manage4city</artifactId>
+    <packaging>jar</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <parent>
+        <groupId>com.baizhitong</groupId>
+        <artifactId>bzt-boot-starter-parent</artifactId>
+        <version>1.1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-util</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-datasource-druid</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhitong</groupId>
+            <artifactId>bzt-boot-starter-data-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
